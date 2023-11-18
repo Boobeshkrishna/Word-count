@@ -20,6 +20,7 @@ End the program.
 ## PROGRAM:
 ## DEVELOPED BY: BOOBESH PM
 ## REFERENCE NUMBER: 212222233001
+```
 num_words =0
 file1 = open("text.txt", "r")
 with open('text.txt','r') as file1:
@@ -27,6 +28,7 @@ with open('text.txt','r') as file1:
         word =i.split()
         num_words += len(word)
 print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
 ![image](https://github.com/Boobeshkrishna/Word-count/assets/141472052/c0b6ba59-ed6b-4f1b-beaa-cca56d491cce)
 
